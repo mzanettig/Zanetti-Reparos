@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contato Reparo Zanetti</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="menu">
+				<h1><img src="img/logo.jpg"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="beneficios.html">Benefícios</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</body>
+		<main>
+			<form>
+				<label for= "Seu nome"> Seu nome</label>
+				<input type="text" id="Seu nome" class="input-padrao" required > 
+
+				<label for="Email">Email</label>
+				<input type="Email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com"> 
+
+				<label for="Telefone">Telefone</label>
+				<input type="Telefone" id="Telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="Mensagem" class="input-padrao" required placeholder="Tipo,marca,modelo e defeito"></textarea>
+			</form>	
+
+		´	<fieldset>
+				<legend> Como prefere o nosso contato?</legend>
+				<label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">	Email</label>
+					
+				<label for="radio-Telefone"><input type="radio" name="contato" value=" Telefone" id="radio-Telefone">Telefone </label>
+					
+				<label for="radio-whatsapp"  ><input type="radio" name="contato" value=" Whatsapp" id="radio-whatsapp" checked>Whatsapp </label>
+			</fieldset>
+
+			 <input type="submit" value="Enviar Formulário" class="enviar">
+		</main>
+
+</html>
